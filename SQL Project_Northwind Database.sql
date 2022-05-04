@@ -28,7 +28,8 @@ CASE
 WHEN Order_Amount >= 0 and Order_Amount < 1000 THEN 'Low'
 WHEN Order_Amount >= 1000 and Order_Amount < 5000 THEN 'Medium'
 WHEN Order_Amount >= 5000 and Order_Amount < 10000 THEN 'High'
-ELSE 'Very high' END AS CustomerGroup
+ELSE 'Very high'
+END AS CustomerGroup
 FROM Cust_Group;
 
 SELECT * FROM Customer_Grouping
@@ -56,7 +57,8 @@ CASE
 WHEN Order_Amount >= 0 and Order_Amount < 1000 THEN 'Low'
 WHEN Order_Amount >= 1000 and Order_Amount < 5000 THEN 'Medium'
 WHEN Order_Amount >= 5000 and Order_Amount < 10000 THEN 'High'
-ELSE 'Very high' END AS Cust_Group
+ELSE 'Very high'
+END AS Cust_Group
 FROM Cust_Group
 )
 SELECT Cust_Group, Count_group = COUNT(Cust_Group),
