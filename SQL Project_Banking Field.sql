@@ -1,4 +1,4 @@
-﻿--Yêu cầu: 
+--Yêu cầu: 
 --Xác định top 10 khách hàng có biến động tăng/giảm huy động vốn lớn nhất giữa 2 ngày dữ liệu liền nhau
 --Bảng dữ liệu đích lưu kết quả tính toán là: DLY_BD_HDV_TOP_KH
 --Các trường trong bảng bao gồm:
